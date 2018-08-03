@@ -1,0 +1,21 @@
+/* Josefin Sans Font */
+
+/* Regular */
+@font-face {
+    font-family: "JosefinCuzCuz";
+    src: url("../fonts/Josefin_Sans/JosefinSans-Regular.ttf");
+}
+
+/* Bold */
+@font-face {
+    font-family: "JosefinCuzCuz";
+    src: url("../fonts/Josefin_Sans/JosefinSans-Bold.ttf");
+    font-weight: bold;
+}
+
+/* Light */
+@font-face {
+    font-family: "JosefinCuzCuz";
+    src: url("../fonts/Josefin_Sans/JosefinSans-Light.ttf");
+    font-weight: lighter;
+}

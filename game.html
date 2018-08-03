@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8" />
+    <title>Play Me| Game</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- Fonts -->
+    <link rel="stylesheet" href="assets/styles/fonts.css" type="text/css">
+
+    <!-- Custom CSS -->
+    <link rel="stylesheet" type="text/css" media="screen" href="assets/styles/styles.css" />
+</head>
+
+<body>
+    <div class="game-container">
+    <div class="gameTitle gameTitleStart">
+        <h1>Jogo da 
+            <span class="pinkText">Memória</span></h1>
+        <p>Tempo gasto: <span id="timer" class="pinkText">0s</span></p>
+    </div>
+    <div class="gameContainer">
+        <div class="row firstRow">
+            <div class="card"> <div class="cardBack"> </div> </div>
+            <div class="card"> <div class="cardBack"> </div> </div>
+            <div class="card"> <div class="cardBack"> </div> </div>
+            <div class="card"> <div class="cardBack"> </div> </div>
+        </div>
+        <div class="row secondRow">
+            <div class="card"> <div class="cardBack"> </div> </div>
+            <div class="card"> <div class="cardBack"> </div> </div>
+            <div class="card"> <div class="cardBack"> </div> </div>
+            <div class="card"> <div class="cardBack"> </div> </div>
+        </div>
+    </div>
+    </div>
+
+    <div id="modalGameWon">
+        <h1 class="pinkText">Parabéns</h1>
+        <p>Você terminou o Jogo em <span id="timeToWin"></span> segundos!</p>
+        <p>Número de erros: <span id="numTentativas"></span> !</p>
+        <a href=""><button type="submit" class="pink-btn">Jogar Novamente</button></a>
+    </div>
+
+    <!-- Custom JS -->
+    <script src="assets/scripts/game.js"></script>
+</body>
+
+</html>
